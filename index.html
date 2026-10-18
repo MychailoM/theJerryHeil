@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <!-- Кодування та адаптивність -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Основна інформація -->
+    <title>Jerry Heil — Музика, творчість та історія</title>
+    <meta name="description" content="Фан-сайт Jerry Heil: фан-сайту української співачки.">
+    <meta name="author" content="JerryHeil Fan Site">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#F8F7F3">
+    <meta name="color-scheme" content="light">
+
+    <!-- Мова сторінки -->
+    <meta http-equiv="Content-Language" content="uk">
+    <link rel="canonical" href="https://example.com/">
+
+    <!-- Open Graph: прев'ю для соцмереж -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:site_name" content="JerryHeil">
+    <meta property="og:title" content="Jerry Heil — Музика та творчість">
+    <meta property="og:description" content="Відкрий світ музики Jerry Heil: пісні, альбоми, кліпи та творчий шлях.">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://example.com/images/og-cover.jpg">
+    <meta property="og:image:alt" content="Обкладинка фан-сайту Jerry Heil">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jerry Heil — Музика та творчість">
+    <meta name="twitter:description" content="Музика, альбоми, кліпи та творчий шлях Jerry Heil.">
+    <meta name="twitter:image" content="https://example.com/images/og-cover.jpg">
+
+    <!-- Favicon: заміни шляхи на власні файли -->
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+
+    <!-- Google Fonts: оптимізація з'єднання -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Шрифти дизайн-системи -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Caveat:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Fredericka+the+Great&family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Monoton&family=Playfair+Display:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Основні стилі -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./styles/header.css">
+
+    <!-- Колірна схема браузера -->
+    <meta name="msapplication-TileColor" content="#F8F7F3">
+
+    <!-- Що потрібно замінити перед запуском
+    - https://example.com/ — на справжню адресу сайту. Якщо сайт ще не опублікований, поки прибери canonical, og:url та
+    посилання на тестову адресу.
+    - https://example.com/images/og-cover.jpg — на реальне зображення для прев’ю в соцмережах.
+    - ./images/favicon.ico, favicon.svg та apple-touch-icon.png — наявні файли іконок у твоєму проєкті.
+    - ./styles/style.css — на шлях до твого CSS-файлу, якщо він розташований інакше.
+    Ще дві важливі деталі:
+    1. У початковому HTML зміни lang="en" на lang="uk", оскільки сайт українською.
+    2. Твій
+    <script type="module" src="./scripts/getSongs.js"></script> можеш залишити в
+
+<body>, як зараз. Якщо скрипт має запускатися після побудови HTML, це зручно. Якщо він потрібен у
+
+    <head>, використовуй defer для звичайного скрипту, але для type="module" він уже діє автоматично. -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-navbar">
+            <div class="container header-container">
+                <a href="index.html" class="header-logo">jerry heil</a>
+
+                <nav>
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item">
+                            <a href="#" class="header-nav-link">Головна</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="#" class="header-nav-link">Біографія</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="#" class="header-nav-link">Пісні</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="#" class="header-nav-link">Соцмережі</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="header-burger-btn">
+                    <span class="header-burger-btn-line"></span>
+                    <span class="header-burger-btn-line"></span>
+                    <span class="header-burger-btn-line"></span>
+                </button>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="container hero-container">
+                <div class="hero-text-wrap">
+                    <h1 class="hero-title">jerry heil</h1>
+                    <div class="hero-deco-line"></div>
+                    <h3 class="hero-subtitle">музика що надихайє</h3>                    
+                </div>
+                <div class="hero-img-wrap">
+                    <img src="./photos/hero-photo.jpg" alt="Hero" class="hero-img">
+                    <div class="hero-img-deco"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script type="module" src="./scripts/getSongs.js"></script>
+</body>
+
+</html>

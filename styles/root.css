@@ -1,0 +1,83 @@
+
+:root {
+    /* ========================================
+       COLORS — КОЛЬОРИ ЗА ПРИЗНАЧЕННЯМ
+       ======================================== */
+
+    /* Фони сторінок і секцій */
+    --color-page-background: #F8F7F3;
+    --color-section-background: #EEEAE1;
+    --color-light-section-background: #F0E8DC;
+    --color-blue-section-background: #DCE5EA;
+    --color-blue-card-background: #B9C8D3;
+    --color-green-section-background: #D8DFD4;
+    --color-green-card-background: #ADB9A8;
+    --color-beige-card-background: #D5C7B2;
+
+    /* Картки, модальні вікна та контент */
+    --color-card-background: #FFFFFF;
+    --color-modal-background: #FFFFFF;
+    --color-dropdown-background: #FFFFFF;
+    --color-tooltip-background: #373B3E;
+
+    /* Основний текст */
+    --color-text-primary: #202326;
+    --color-text-secondary: #373B3E;
+    --color-text-on-dark: #FFFFFF;
+    --color-text-on-primary: #FFFFFF;
+    --color-text-muted: #92999F;
+
+    /* Заголовки та декоративний текст */
+    --color-heading: #303F50;
+    --color-heading-accent: #506B85;
+    --color-decorative-text: #596354;
+
+    /* Кнопки та посилання */
+    --color-button-background: #506B85;
+    --color-button-background-hover: #303F50;
+    --color-button-text: #FFFFFF;
+    --color-link: #506B85;
+    --color-link-hover: #303F50;
+
+    /* Другорядні акценти */
+    --color-accent-blue: #8299AD;
+    --color-accent-green: #858D78;
+    --color-accent-gold: #D4C09A;
+    --color-accent-beige: #B9AA97;
+
+    /* Межі, розділювачі та іконки */
+    --color-border: #C6CBD0;
+    --color-border-strong: #92999F;
+    --color-divider: #C6CBD0;
+    --color-icon: #506B85;
+    --color-icon-muted: #92999F;
+
+    /* Темні блоки */
+    --color-footer-background: #373B3E;
+    --color-dark-section-background: #303F50;
+    --color-dark-card-background: #373B3E;
+
+    /* ========================================
+       FONTS — КЛАСИЧНІ ШРИФТИ
+       ======================================== */
+
+    --font-heading-elegant: "Cormorant Garamond", serif;
+    --font-body: "Manrope", sans-serif;
+    --font-body-readable: "Inter", sans-serif;
+    --font-card-text: "DM Sans", sans-serif;
+    --font-heading-editorial: "Playfair Display", serif;
+
+    /* ========================================
+       FONTS — ДЕКОРАТИВНІ ШРИФТИ
+       ======================================== */
+
+    --font-heading-fashion: "Cormorant Garamond", serif;
+    --font-handwritten: "Caveat", cursive;
+    --font-heading-outline: "Fredericka the Great", serif;
+    --font-heading-geometric: "Unbounded", sans-serif;
+    --font-heading-retro-outline: "Monoton", cursive;
+}
+
+body{
+    background-color: var(--color-page-background);
+}
